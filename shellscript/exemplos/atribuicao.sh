@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Variaveis
-
 # Atribuicao de texto simples.
 TEXTO=Linux
 
