@@ -1,10 +1,10 @@
 # Linux Course
 
-## Descrição
+# Descrição
 
 Material relacionado ao grupo de estudos que tem como objetivo aprimorar os conhecimentos em GNU/Linux.
 
-## Tópicos
+# Tópicos
 
 Tópicos que o grupo de estudos estará aprimorando seus conhecimentos:
 
