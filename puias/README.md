@@ -8,4 +8,4 @@ PUIAS Linux é um sistema operacional completo para Desktops e Servidores, const
 * Computational: contém pacotes específicos para computação científica.
 * Unsupported: contém pacotes experimentais.
 
-A distribuição é mantida pela Princeton University (PU) e o Institute for Advanced Study(IAS), que também faz parte da Universidade Princeton. Seu nome tem como origem a junção de suas siglas PU e IAS.
+A distribuição é mantida pela Princeton University (PU) e o Institute for Advanced Study (IAS), que também faz parte da Universidade Princeton. Seu nome tem como origem a junção de suas siglas PU e IAS.
