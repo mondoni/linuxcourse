@@ -1,5 +1,11 @@
-#Puias
+# PUIAS Linux
 
 # Descrição
 
-PUIAS Linux is a complete operating system for desktops and servers, built by compiling the source packages for Red Hat Enterprise Linux. Besides these upstream packages, the project also provides several other repositories: "Addons" which contains additional packages not included in a stock Red Hat distribution, "Computational" which carries software specific to scientific computing, and "Unsupported" which holds various experimental packages. The distribution is maintained by the Institute for Advanced Study at Princeton University in the USA.
+PUIAS Linux é um sistema operacional completo para Desktops e Servidores, construído através da compilação dos pacotes fontes do Red Hat Enterprise Linux. Fora os pacotes upstream, o projeto também fornece outros repositórios:
+
+* Addons: contém pacotes não inclusos na distribuição Red Hat.
+* Computational: contém pacotes específicos para computação científica.
+* Unsupported: contém pacotes experimentais.
+
+A distribuição é mantida pela Princeton University (PU) e o Institute for Advanced Study(IAS), que também faz parte da Universidade Princeton. Seu nome tem como origem a junção de suas siglas PU e IAS.
