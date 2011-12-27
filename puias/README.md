@@ -1,6 +1,6 @@
 # PUIAS Linux
 
-# Home Page
+Home Page
 
 * http://puias.math.ias.edu/
 
