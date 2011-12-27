@@ -1,5 +1,9 @@
 # PUIAS Linux
 
+# Home Page
+
+* http://puias.math.ias.edu/
+
 # Descrição
 
 PUIAS Linux é um sistema operacional completo para Desktops e Servidores, construído através da compilação dos pacotes fontes do Red Hat Enterprise Linux. Fora os pacotes upstream, o projeto também fornece outros repositórios:
@@ -9,10 +13,6 @@ PUIAS Linux é um sistema operacional completo para Desktops e Servidores, const
 * Unsupported: contém pacotes experimentais.
 
 A distribuição é mantida pela Princeton University (PU) e o Institute for Advanced Study (IAS), que também faz parte da Universidade Princeton. Seu nome tem como origem a junção de suas siglas PU e IAS.
-
-# Home Page
-
-* http://puias.math.ias.edu/
 
 # Puias Announce
 
