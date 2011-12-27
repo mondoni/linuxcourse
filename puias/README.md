@@ -1,5 +1,15 @@
 # PUIAS Linux
 
+* Home Page: http://puias.math.ias.edu/
+* Mailing Lists:
+
+## Puias Announce
+
+Informações de updates, calendário de lançamentos, anúncios, etc.
+
+* http://groups.google.com/group/puias-announce
+
+
 # Descrição
 
 PUIAS Linux é um sistema operacional completo para Desktops e Servidores, construído através da compilação dos pacotes fontes do Red Hat Enterprise Linux. Fora os pacotes upstream, o projeto também fornece outros repositórios:
