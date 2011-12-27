@@ -8,10 +8,9 @@ Material relacionado ao grupo de estudos que tem como objetivo aprimorar os conh
 
 Tópicos que o grupo de estudos estará aprimorando seus conhecimentos:
 
-* [Puias (Distribuição Enterprise Red Hat like)](http://puias.math.ias.edu)
-* Virtualização com KVM
+* [Puias (Red Hat Enterprise Linux like)](puias.math.ias.edu)
 * Shell Script
-* Samba
-* Bind
-* OpenLDAP
-* FHS e LSB
+* [Virtualização com KVM](http://www.linux-kvm.org/page/Main_Page)
+* [Samba](http://www.samba.org/)
+* [Bind](http://www.isc.org/software/bind)
+* [OpenLDAP](http://www.openldap.org/)
