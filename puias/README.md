@@ -17,3 +17,15 @@ A distribuição é mantida pela Princeton University (PU) e o Institute for Adv
 Informações de updates, calendário de lançamentos, anúncios, etc.
 
 * http://groups.google.com/group/puias-announce
+
+# Puias Users
+
+Principal lista de discussão da cominidade de usuários puias.
+
+* http://groups.google.com/group/puias-users
+
+# Puias Devel
+
+Lista de discussão de desenvolvedores da comunidade puia. Inscreva-se para sugerir novos pacotes, correções de pacotes existes, etc.
+
+* http://groups.google.com/group/puias-devel
