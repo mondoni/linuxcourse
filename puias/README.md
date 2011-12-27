@@ -1,7 +1,5 @@
 # PUIAS Linux
 
-Home Page
-
 * http://puias.math.ias.edu/
 
 # Descrição
