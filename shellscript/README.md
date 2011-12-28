@@ -1,8 +1,9 @@
 # Shell Script
 
 # O que é shell?
+(Aurelio Marinho Jargas)
 
-Shell é a linha de comando do Linux (e UNIX). É o shell quem interpreta a linha de comandos digitada pelo usuário no terminal e chama os programas desejados. Lê-se "xéu", como em "meu deu du xéu" :)
+Shell é a linha de comando do Linux (e UNIX). É o shell quem interpreta a linha de comandos digitada pelo usuário no terminal e chama os programas desejados.
 
 Além de executar comandos do sistema, o shell também tem seus próprios comandos, como IF, FOR e WHILE, e também possui variáveis e funções. Tudo isso para tornar um pouco mais "esperta" e flexível essas chamadas de comandos feitas pelo usuário.
 
