@@ -7,6 +7,7 @@
 	<xi:include href="Book_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Preface.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="chap_Introducao.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="chap_Criando_Shell_Script.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 
 	<xi:include href="appe_Referencias.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 
