@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+]>
+<section>
+	<title>Convenções de Documentos</title>
+	 <para>
+		Este manual usa diversas convenções para destacar certas palavras e frases e chamar a atenção para informações específicas.
+	</para>
+	 <para>
+		Em PDF e edições de texto, este manual usa tipos de letras retiradas do conjunto de Fontes <ulink url="https://fedorahosted.org/liberation-fonts/">Liberation Fonts</ulink>. O conjunto de Fontes Liberation Fonts, também é usado em formato HTML, caso o conjunto esteja instalado em seu sistema. Caso ainda não esteja, como forma alternativa, estão disponíveis tipos de letras equivalentes. Nota: O Red Hat Enterprise Linux 5 e versões mais recentes do mesmo, incluem o conjunto Liberation Fonts por padrão.
+	</para>
+	 <section>
+		<title>Convenções Tipográficas</title>
+		 <para>
+			São usadas quatro convenções tipográficas para realçar palavras e frases específicas. Estas convenções, e circunstâncias a que se aplicam, são as seguintes:
+		</para>
+		 <para>
+			<literal>Negrito Espaço Único</literal> (Mono-spaced Bold)
+		</para>
+		 <para>
+			Usada para realçar entradas do sistema, incluindo comandos de shell, nomes de arquivos e caminhos. São também usadas para realçar tecla de Maiúsculas/Minúsculas e as combinações de teclas. Por exemplo:
+		</para>
+		 <blockquote>
+			<para>
+				Para ver o conteúdo do arquivo <filename>my_next_bestselling_novel</filename> em sua pasta de trabalho atual, insira o comando <command>cat my_next_bestselling_novel</command> na janela de solicitação e pressione <keycap>Enter</keycap> para executar o comando.
+			</para>
+
+		</blockquote>
+		 <para>
+			O comando acima inclui um nome de arquivo, um comando de shell e uma tecla cap, todos apresentados em Negrito Espaço Único (Mono-spaced Bold) e todos distintos, graças ao conteúdo.
+		</para>
+		 <para>
+			As combinações de Teclas podem ser diferenciadas da tecla Caps Lock por um hífen, conectando cada parte de uma combinação de teclas. Por exemplo:
+		</para>
+		 <blockquote>
+			<para>
+				Pressione <keycap>Enter</keycap> para executar o comando.
+			</para>
+			 <para>
+				Pressione <keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap><keycap>F2</keycap></keycombo> para mudar para o primeiro terminal virtual. Pressione <keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap><keycap>F1</keycap></keycombo> para voltar para sua sessão do X-Windows.
+			</para>
+
+		</blockquote>
+		 <para>
+			A primeira sentença, destaca uma tecla específica a ser pressionada. A segunda destaca duas combinações de teclas (cada conjunto de três teclas Caps com cada um pressionado simultaneamente).
+		</para>
+		 <para>
+			Caso o código fonte seja discutido, serão apresentados como acima, os nomes de classe, métodos, funções, nomes de variantes e valores retornados mencionados em um parágrafo, em <literal>Negrito de Espaço Único (Mono-spaced Bold)</literal>. Por exemplo:
+		</para>
+		 <blockquote>
+			<para>
+				Classes baseadas em arquivo, incluem <classname>filesystem</classname> para sistemas de arquivo, <classname>file</classname> para arquivos, e <classname>dir</classname> para diretórios. Cada classe possui seu conjunto próprio de permissões associadas.
+			</para>
+
+		</blockquote>
+		 <para>
+			<application>Negrito Proporcional</application>
+		</para>
+		 <para>
+			Esta representa as palavras e frases encontradas no sistema, incluindo os nomes de aplicativos, texto de caixa de diálogo, botões rotulados, caixa de seleção e rótulos de botão de opção, títulos de menus e sub-menus. Por exemplo:
+		</para>
+		 <blockquote>
+			<para>
+				Escolha <menuchoice><guimenu>Sistema </guimenu><guisubmenu> Preferências</guisubmenu><guimenuitem> Mouse</guimenuitem></menuchoice> a partir da barra de menu para obter <application>Preferências de Mouse</application>. Na aba <guilabel>Botões</guilabel>, clique na caixa de seleção <guilabel>Mouse para mão esquerda</guilabel> e clique em <guibutton>Fechar</guibutton> para mudar o botão do mouse anterior da esquerda para a direita (deixando-o assim, mais adequado para o uso do canhoto).
+			</para>
+			 <para>
+				Para inserir um caractere especial em um arquivo <application>gedit</application>, escolha <menuchoice><guimenu>Aplicativos</guimenu><guisubmenu> Acessórios</guisubmenu><guimenuitem> Mapa de Caracteres</guimenuitem></menuchoice> a partir da barra de menu principal. Depois, escolha a opção<menuchoice><guimenu>Pesquisar</guimenu><guimenuitem> Encontrar&hellip;</guimenuitem></menuchoice> a partir da barra de menu <application>Mapa de Caracteres </application>, digite o nome do caractere no campo <guilabel>Pesquisar</guilabel> e clique em <guibutton>Próximo</guibutton>. O caractere que você buscou estará em destaque na <guilabel>Tabela de Caracteres</guilabel>. Clique novamente nestes caracteres realçados para colocá-los no campo <guilabel>Texto para cópia</guilabel> e depois clique em <guibutton>Copiar</guibutton>. Agora mude novamente para seu documento e escolha <menuchoice><guimenu>Editar</guimenu><guimenuitem> Colar</guimenuitem></menuchoice> a partir da barra de menu do <application>gedit</application>.
+			</para>
+
+		</blockquote>
+		 <para>
+			O texto acima inclui nomes de aplicativos, nomes de menu e itens de todo o sistema, nomes de menu específicos do aplicativo, e botões e textos encontrados na Interface Gráfica GUI, todos apresentados em Negrito Proporcional (Proportional Bold) e todos diferenciados de acordo com o contexto.
+		</para>
+		 <para>
+			<command><replaceable>Itálico em Negrito de Espaço Único (Mono-spaced Bold Italic)</replaceable></command> ou<application><replaceable>Itálico em Negrito Proporcional (Proportional Bold Italic)</replaceable></application>
+		</para>
+		 <para>
+			Sendo o Negrito Espaço Único (Mono-spaced Bold) ou Negrito Proporcional (Proportional Bold), os itálicos extras indicam textos substituíveis ou variáveis. O Itálico denota o texto que você não inseriu literalmente ou textos exibidos que mudam dependendo das circunstâncias. Por exemplo:
+		</para>
+		 <blockquote>
+			<para>
+				Para conectar-se à uma máquina remota usando o ssh, digite <command>ssh <replaceable>nome do usuário</replaceable>@<replaceable>domain.name</replaceable></command> na janela de comandos. Por exemplo, considre que a máquina remota seja <filename>example.com</filename> e seu nome de usuário nesta máquina seja john, digite <command>ssh john@example.com</command>.
+			</para>
+			 <para>
+				O comando <command>mount -o remount <replaceable>file-system</replaceable></command> remonta o sistema de arquivo nomeado. Por exemplo, para remontar o sistema de arquivo <filename>/home</filename>, o comando é <command>mount -o remount /home</command>.
+			</para>
+			 <para>
+				Para ver a versão de um pacote instalado, use o comando <command>rpm -q <replaceable>package</replaceable></command>. Ele retornará um resultado como este: <command><replaceable>package-version-release</replaceable></command>.
+			</para>
+
+		</blockquote>
+		 <para>
+			Observe as palavras em negrito e itálicas acima &mdash; nome de usuário, nome do domínio, sistema de arquivo, pacote, versão e lançamento. Cada palavra é um espaço reservado, tanto para o texto que você inseriu ao emitir um comando ou para o texto exibido pelo sistema.
+		</para>
+		 <para>
+			Além de uso padrão para apresentar o título de um trabalho, os itálicos denotam a primeira vez que um termo novo e importante é usado. Por exemplo:
+		</para>
+		 <blockquote>
+			<para>
+				O Publican é um sistema de publicação do <firstterm>DocBook</firstterm>.
+			</para>
+
+		</blockquote>
+
+	</section>
+	
+	 <section>
+		<title>Convenções de Pull-Quote </title>
+		 <para>
+			Resultado de terminal e listagem de código fonte são definidos visualmente com base no contexto.
+		</para>
+		 <para>
+			O resultado enviado à um terminal é configurado em <computeroutput>Romano de Espaço Único (Mono-spaced Roman)</computeroutput> e apresentado assim:
+		</para>
+		 
+<screen>books        Desktop   documentation  drafts  mss    photos   stuff  svn
+books_tests  Desktop1  downloads      images  notes  scripts  svgs</screen>
+		 <para>
+			As listas de código fonte também são configuradas em <computeroutput>Romano de Espaço Único (Mono-spaced Roman)</computeroutput>, porém são apresentadas e realçadas como a seguir:
+		</para>
+		 
+<programlisting language="Java">package org.jboss.book.jca.ex1;
+
+import javax.naming.InitialContext;
+
+public class ExClient
+{
+   public static void main(String args[]) 
+       throws Exception
+   {
+      InitialContext iniCtx = new InitialContext();
+      Object         ref    = iniCtx.lookup("EchoBean");
+      EchoHome       home   = (EchoHome) ref;
+      Echo           echo   = home.create();
+
+      System.out.println("Created Echo");
+
+      System.out.println("Echo.echo('Hello') = " + echo.echo("Hello"));
+   }
+}</programlisting>
+
+	</section>
+	
+	 <section>
+		<title>Notas e Avisos</title>
+		 <para>
+			E por fim, usamos três estilos visuais para chamar a atenção para informações que possam passar despercebidas.
+		</para>
+		 <note>
+			<title>Nota</title>
+			 <para>
+				Uma nota é uma dica ou símbolo, ou ainda uma opção alternativa para a tarefa em questão. Se você ignorar uma nota, provavelmente não resultará em más consequências, porém poderá deixar passar uma dica importante que tornará sua vida mais fácil.
+			</para>
+
+		</note>
+		 <important>
+			<title>Importante</title>
+			 <para>
+				Caixas importantes detalham coisas que são geralmente fáceis de passarem despercebidas: mudanças de configuração que somente se aplicam à sessão atual, ou serviços que precisam ser reiniciados antes que uma atualização seja efetuada. Se você ignorar estas caixas importantes, não perderá dados, porém isto poderá causar irritação e frustração.
+			</para>
+
+		</important>
+		 <warning>
+			<title>Aviso</title>
+			 <para>
+				Um Aviso não deve ser ignorado. Se você ignorar avisos, muito provavelmente perderá dados.
+			</para>
+
+		</warning>
+
+	</section>
+
+</section>
+
+

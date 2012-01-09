@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Shell_Script.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Shell_Script-Introducao">
+
+	<title>Introdução</title>
+
+	<para />
+
+	<section>
+		<title>Camadas do Linux</title>
+		
+		<indexterm>
+			<primary>camadas</primary>
+			<secondary>informações sobre camadas do linux.</secondary>
+		</indexterm>
+	
+		<para>
+			<figure id="pic-Shell_Script-Camadas_Linux">
+				<title>Camadas do Linux</title>
+				 <mediaobject>
+					<imageobject>
+						<imagedata align="center" fileref="images/camadas_linux.png" format="PNG" width="250"/>
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</para>
+	
+		<para>
+			Com base na <xref linkend="pic-Shell_Script-Camadas_Linux" />, podemos compreender quais as camadas que compõem um sistema operacional GNU/Linux desde o Hardware até o Shell.	
+		</para>
+	
+		<itemizedlist>
+			<listitem>
+				<para><filename>Hardware</filename>: composto pelos dispositivos físicos do sistema (teclado, mouse, monitor).</para>
+			</listitem>
+		
+			<listitem>
+				<para><filename>Kernel</filename>: núcleo do sistema operacional sendo responsável pelo controle e gerenciamento do hardware.</para>
+			</listitem>
+		
+			<listitem>
+				<para><filename>Programas</filename>: comandos que realizam tarefas bem específicas.</para>
+			</listitem>
+		
+			<listitem>
+				<para><filename>Shell</filename>: responsável pela interação entre o usuário e o sistema operacional.</para>
+			</listitem>
+		</itemizedlist>
+	</section>
+	
+	<section>
+		<title>O que é o Shell?</title>
+		
+		<indexterm>
+			<primary>shell</primary>
+			<secondary>definição do que é o shell.</secondary>
+		</indexterm>
+	
+		<para>
+			<replaceable>Shell</replaceable> é o programa que reconhece o comando que você digitou e traduz para o sistema operacional qual a ação que será realizada, diminuindo o tempo de utilização do kernel para a execução da ação.
+		</para>
+		
+		<para>
+			Por ser um interpretador de comandos de alto nível, o shell também pode ser utilizado como linguagem de programação. Onde o usuário pode combinar uma sequencia de comandos criando um script para ser executar ao invés de sempre realizar a mesma sequencia de comandos manualmente.
+		</para>
+	</section>
+	
+	<section>
+		<title>Tipos de Shells</title>
+
+		<itemizedlist>
+			<listitem>
+				<para><filename>Bourne Shell (sh)</filename>: Desenvolvido por Stephen Bourne da Bell Labs (da AT&amp;T onde também foi desenvolvido o Unix), este foi durante muitos anos o Shell default do sistema operacional Unix. É também chamado de Standard Shell por ter sido durante vários anos o único e até hoje é o mais utilizado até porque ele foi portado para todos os ambientes Unix e distros Linux.
+				</para>
+			</listitem>
+			
+			<listitem>
+				<para><filename>Korn Shell (ksh)</filename>: Desenvolvido por David Korn, também da Bell Labs, é um superset do sh, isto é, possui todas as facilidades do sh e a elas agregou muitas outras. A compatibilidade total com o sh vem trazendo muitos usuários e programadores de Shell para este ambiente.
+				</para>
+			</listitem>
+			
+			<listitem>
+				<para><filename>Boune Again Shell (bash)</filename>: Este é o Shell mais moderno e cujo número de adeptos mais cresce em todo o mundo, seja por ser o Shell default do Linux, seu sistema operacional hospedeiro, seja por sua grande diversidade de comandos, que incorpora inclusive diversos instruções características do C Shell.
+				</para>
+			</listitem>
+			
+			<listitem>
+				<para><filename>C Shell (csh)</filename>: Desenvolvido por Bill Joy da Berkley University é o Shell mais utilizado em ambientes *BSD e Xenix. A estruturação de seus comandos é bem similar à da linguagem C. Seu grande pecado foi ignorar a compatibilidade com o sh, partindo por um caminho próprio. Além destes Shells existem outros, mas irei falar contigo somente sobre os três primeiros, tratando-os genericamente por Shell e assinalando as especificidades de cada um que porventura hajam.
+				</para>
+			</listitem>
+
+		</itemizedlist>
+	</section>	
+	
+	<section>
+		<title>Vantagens do Bourne Again Shell (BASH)</title>
+		
+		<para>
+			<replaceable>Bash</replaceable> é um shell compatível com sh que incorpora funções úteis de Korn shell (ksh) e C shell (csh). Ele está em conformidades com o padrão IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools. Oferece melhorias em relação ao sh tanto para programação quanto utilização interativa. Incluindo, edição de linha de comando, histórico de comandos ilimitado, controle de jobs entre outros. O bash pode executar a maioria dos scripts sh sem modificações.
+		</para>
+	</section>
+	
+	<section>
+		<title>Arquivos de inicialização do bash</title>
+		
+		<para>
+			Arquivos de inicialização são script que serão lidos e executados pelo Bash ao ser iniciado. A seguir uma breve explicação das diferentes maneiras de iniciar o bash e que arquivos serão lidos na inicilização.
+		</para>
+		
+		<section>
+			<title>Shell Interativo com login ou opção “--login”</title>
+			
+			<para>
+				Significa que você está logado num shell após ter efetuado login com usuário e senha, não necessariamente existirá um script sendo executado.
+			</para>
+			
+			<para>
+				Arquivos lidos:
+			</para>
+			
+			<itemizedlist>
+				<listitem>
+					<para>/etc/profile</para>
+				</listitem>
+				
+				<listitem>
+					<para>~/.bash_profile, ~/.bash_login ou ~/.profile: será lido o primeiro arquivo existente.</para>
+				</listitem>
+					
+				<listitem>
+					<para>~./bash_logout: lido no momento de efetua logout.</para>
+				</listitem>
+			</itemizedlist>
+
+		</section>
+		
+		<section>
+			<title>Shell Interativo sem login</title>
+			
+			<para>
+				Significa que você não precisou se autenticar no sistema. Exemplo, quando você abre um terminal a partir de um ícone ou um atalho de menu, isso é um shell sem login.
+			</para>
+			
+			<para>
+				Arquivos lidos:
+			</para>
+			
+			<itemizedlist>
+				<listitem>
+					<para>~/.bashrc</para>
+				</listitem>
+			</itemizedlist>
+			
+			<para>
+				Este arquivo é geralmente citado em ~/.bash_profile:
+			
+			<screen>if [ -f ~/.bashrc ]; then . ~/.bashrs; fi</screen>
+			
+			</para>
+		</section>
+		
+		<section>
+			<title>Shell não interativo</title>
+			
+			<para>
+				Todos os script utilizando shell não interativo. Eles são programados para realizarem certas tarefas e não podem ser instruídos a realizarem outros trabalhos diferentes dos programados.
+			</para>
+			
+			<para>
+				Arquivos lidos:
+			</para>
+			
+			<itemizedlist>
+				<listitem>
+					<para>definido por BASH_ENV.</para>
+				</listitem>
+			</itemizedlist>
+		</section>
+		
+		<section>
+			<title>Execução com o comando sh</title>
+			
+			<para>
+				O bash atua como o programa Bourne sh.
+			</para>
+			
+			<para>
+				Arquivos lidos:
+			</para>
+			
+			<itemizedlist>
+				<listitem>
+					<para>/etc/profile</para>
+				</listitem>
+				
+				<listitem>
+					<para>~/.profile</para>
+				</listitem>
+			</itemizedlist>
+		</section>
+	</section>
+	
+	<section>
+		<title>Executando comandos</title>
+		
+		<para>
+			O bash determina o tipo de programa que será executado. Programas normais são comandos do sistema que existem na forma compilada. Quando um desses programas é executado, um novo processo é criado porque o Bash faz uma cópia exata dele mesmo. Este procedimento chama-se forking.
+		</para>
+		
+		<section>
+			<title>Comandos built-in do Shell</title>
+			
+			<para>
+				São comandos existentes dentro do próprio shell. Quando um desses comandos é executado sendo a primeira palavra de uma linha de comando, o shell o executa diretamente sem a necessidade de criar um novo processo.
+			</para>
+		</section>
+		
+		<section>
+			<title>Propriedades de bons scripts:</title>
+			
+			<para>
+			<orderedlist>
+				<listitem>
+					<para>Um script deve executar sem erros;</para>
+				</listitem>
+				
+				<listitem>
+					<para>Deve executar a tarefa para qual foi criado;</para>
+				</listitem>
+					
+				<listitem>
+					<para>Lógica de programação é claramente definida;</para>
+				</listitem>
+				
+				<listitem>
+					<para>Um script não realiza tarefas desnecessárias;</para>
+				</listitem>
+				
+				<listitem>
+					<para>Scripts devem ser reutilizáveis;</para>
+				</listitem>
+			</orderedlist>
+			</para>
+		</section>
+
+	</section>
+	
+</chapter>
+

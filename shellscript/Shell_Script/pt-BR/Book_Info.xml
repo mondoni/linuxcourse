@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Shell_Script.ent">
+%BOOK_ENTITIES;
+]>
+<bookinfo id="book-Shell_Script-Shell_Script">
+	<title>Shell Script</title>
+	<subtitle></subtitle>
+	<productname>Linux Course</productname>
+	<productnumber></productnumber>
+	<edition>1</edition>
+	<pubsnumber>0</pubsnumber>
+	<abstract>
+		<para>
+			Esta apostila tem como objetivo demonstrar a utilização do Bash para a criação de shell scripts. Esta apostila também será utilizada como referência para aprendizado do assunto durante os encontros do grupo de estudos <application><replaceable>Linux Course</replaceable></application>.
+		</para>
+	</abstract>
+	<corpauthor>
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata fileref="images/blue_shell.png" format="PNG" />
+			</imageobject>
+		</inlinemediaobject>
+	</corpauthor>
+	<xi:include href="Author_Group.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</bookinfo>
+

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Shell_Script.ent">
+%BOOK_ENTITIES;
+]>
+<appendix id="appe-Shell_Script-Referencias">
+	<title>Referências</title>
+	
+	<para />
+	
+	<para>
+		Exemplos disponiveis em: <ulink url="https://github.com/mondoni/linuxcourse/tree/master/shellscript/exemplos" />
+	</para>
+	
+	<para>
+		Neves, Julio Cezar. Programação Shell Linux, sétima edição, 2008.
+	</para>
+	
+	<para>
+		Garrels, machtelt. Bash Beginners Guide, versão 1.1, 2008.
+	</para>
+	
+	<para>
+		Abadi, Marcos. Uma Rapidinha nos Principais Sabores de Shell. 20/12/2011. Disponível em: <ulink url="http://marcosabadi.blogspot.com/2011/12/uma-rapidinha-nos-principais-sabores-de.html" />
+	</para>
+	
+	 <!-- <para></para>
+	<para><ulink url=""></ulink></para> -->
+</appendix>
+

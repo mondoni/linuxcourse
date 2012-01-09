@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE legalnotice PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+]>
+<legalnotice>
+	<para>
+		Copyright <trademark class="copyright"></trademark> &YEAR; &HOLDER;.
+	</para>
+	 <para>
+		O texto deste documento está licensiado por Linustec sob a licença Creative Commons Attribution–Share Alike 3.0 Unported ("CC-BY-SA"). Uma explicação de CC-BY-SA pode ser encotnrada em <ulink url="http://creativecommons.org/licenses/by-sa/3.0/" />. The original authors of this document designate the Linux Course Project as the "Attribution Party" for purposes of CC-BY-SA. In accordance with CC-BY-SA, if you distribute this document or an adaptation of it, you must provide the URL for the original version.
+	</para>
+<!--	 <para>
+		Red Hat, as the licensor of this document, waives the right to enforce, and agrees not to assert, Section 4d of CC-BY-SA to the fullest extent permitted by applicable law.
+	</para>
+	 <para>
+		Red Hat, Red Hat Enterprise Linux, the Shadowman logo, JBoss, MetaMatrix, Fedora, the Infinity Logo, and RHCE are trademarks of Red Hat, Inc., registered in the United States and other countries.
+	</para>
+	 <para>
+		For guidelines on the permitted uses of the Fedora trademarks, refer to <ulink url="https://fedoraproject.org/wiki/Legal:Trademark_guidelines" />.
+	</para>
+	 <para>
+		<trademark class="registered">Linux</trademark> is the registered trademark of Linus Torvalds in the United States and other countries.
+	</para>
+	 <para>
+		<trademark class="registered">Java</trademark> is a registered trademark of Oracle and/or its affiliates.
+	</para>
+	 <para>
+		<trademark class="registered">XFS</trademark> is a trademark of Silicon Graphics International Corp. or its subsidiaries in the United States and/or other countries.
+	</para>
+	 <para>
+		<trademark class="registered">MySQL</trademark> is a registered trademark of MySQL AB in the United States, the European Union and other countries.
+	</para>
+	 <para>
+		All other trademarks are the property of their respective owners.
+	</para>
+-->
+</legalnotice>
+

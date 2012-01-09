@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+]>
+<section>
+	<title>Nós precisamos de seu feedback</title>
+	 <indexterm>
+		<primary>feedback</primary>
+		 <secondary>contato de informação para este manual.</secondary>
+	</indexterm>
+	 <para>
+		Se você encontrar erro ortográfico neste manual, ou se você tem uma sugestão para melhoramento deste manual, nós gostaríamos muito de ouvir sua opinião! Por favor envie um email para <application>&EMAIL;</application> referenciando como assunto: <application>&PRODUCT; - &BOOKID;</application>.
+	</para>
+
+	 <para>
+		Se você tiver uma sugestão para a melhora deste documento, por favor tente ser o mais específico possível em sua descrição. Caso você tenha encontrado um erro, por favor inclua o número da seção e alguns detalhes a respeito do texto para a nossa melhor identificação.
+	</para>
+</section>
+
+
