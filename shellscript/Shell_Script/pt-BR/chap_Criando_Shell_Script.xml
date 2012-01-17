@@ -57,7 +57,7 @@ Hello World!</screen>
 		<title>Variáveis</title>
 		
 		<para>
-			Para quem já conhece algum tipo de linguagem de programação já deve ter uma noção de como funciona esse processo. No <replaceable>bash</replaceable> não é muito diferente de outras linguagens de programação, aliás, ele é muito mais simples nesse quesito.
+			Para quem conhece algum tipo de linguagem de programação já deve ter uma noção de como funciona esse processo. No <replaceable>bash</replaceable> não é muito diferente de outras linguagens de programação, aliás, ele é muito mais simples nesse quesito.
 		</para>
 		
 		<para>
@@ -65,8 +65,8 @@ Hello World!</screen>
 		</para>
 		
 		<para>
-			Vamos alterar nosso script "<replaceable>helloworld.sh</replaceable>" para que a mensagem esteja atribuída à uma variável.
-			<screen>$ vim helloworld.sh
+			Vamos copiar nosso script "<replaceable>helloworld.sh</replaceable>" para "<replaceable>helloworld-var.sh</replaceable>" e alterá-lo para que a mensagem esteja atribuída à uma variável.
+			<screen>$ vim helloworld-var.sh
 #!/bin/bash
 msg='Hello World!'
 echo $msg
@@ -75,7 +75,21 @@ $ ./helloworld.sh
 Hello World!
 </screen>
 		</para>
-	
+		
+		<para>
+			Outro exemplo de utilização de variáveis contendo textos:
+			
+			<screen>$ vim chaves.sh
+#!/bin/bash
+
+msg='Foi sem querer, querendo!'
+
+echo "A frase que o Chaves mais fala no seriado é: \"$msg\""
+
+# ./chaves
+A frase que o Chaves mais fala no seriado é: "Foi sem querer, querendo!"
+</screen>
+		</para>
 	</section>
 	
 
