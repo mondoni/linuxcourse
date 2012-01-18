@@ -8,7 +8,7 @@ Material relacionado ao grupo de estudos que tem como objetivo aprimorar os conh
 
 Tópicos que o grupo de estudos estará aprimorando seus conhecimentos:
 
-* [Puias (Red Hat Enterprise Linux like)](http://puias.math.ias.edu)
+* [Puias](http://puias.math.ias.edu)
 * [Shell Script](http://aurelio.net/shell/)
 * [Virtualização com KVM](http://www.linux-kvm.org/page/Main_Page)
 * [Samba](http://www.samba.org/)
